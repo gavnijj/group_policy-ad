@@ -35,22 +35,22 @@ This tutorial outlines how to deal with account lockouts, the enabling and disab
 <img src="https://i.imgur.com/LHFFkwf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-The domain controller needs a account lockout policy that controls when an account is locked after multiple failed login attempts, how long the account remains locked, and how the lockout counter is reset. To do this: 1. open the the Group Management Console(GPMC) in the Domain Controller 2. Create or edit a Group Policy Object 3. Navigate to Account Lockout Policies 5. Configure Policies 6. Link GPO to an Organizational Unit 7. Update Group Policy
+The domain controller needs a Account Lockout Policy that controls when an account is locked after multiple failed login attempts, how long the account remains locked, and how the lockout counter is reset. To do this: 1. open the the Group Management Console(GPMC) in the Domain Controller 2. Create or edit a Group Policy Object 3. Navigate to Account Lockout Policies 5. Configure Policies 6. Link GPO to an Organizational Unit 7. Update Group Policy. The above picture defines the Account Lockout Policy as 5 invalid attempts before the Account is locked for 30 minutes an the invalid attempts counter resets after 10 minutes. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/3eeudp0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+From the Active Directory Users and Computer window you can disable , reset password, or add to a group an account that is connected to the Domain Controller. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/uO8FN4Y.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Can observe the logs in the Domain Controller by opening the eventvwr.msc window. The security logs show the type of event IDs that have been goin on in the Domain Controller. If you see suspicious activity or many log in attempts from an account, you can disable the account to prevent access into the Domain Controller.
 </p>
 <br />
