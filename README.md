@@ -5,11 +5,6 @@
 <h1>Group Policy and Managing Accounts</h1>
 This tutorial outlines how to deal with account lockouts, the enabling and disabling of accounts, and observing logs.<br />
 
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How to Deploy on-premises Active Directory within Azure Compute](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
